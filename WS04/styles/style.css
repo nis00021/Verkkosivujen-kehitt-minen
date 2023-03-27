@@ -1,0 +1,30 @@
+body {color: azure;
+    background-color: black}
+h2 {border: double;
+    color: aliceblue;
+border-width: 5px;
+border-color: darkgoldenrod;
+margin: 50px 50px;
+padding: 25px 25px;}
+
+p {background-color: rgb(102, 99, 99);
+    color: rgb(255, 255, 255);
+    border: solid;
+    border-width: 3px;
+    border-color: brown;
+border-radius: 10px;
+margin: 50px 50px;}
+
+.Statusbar {margin: 50px 50px;}
+
+.inside-div {
+    background-color: black;
+    border: dotted;
+    border-width: 2px;
+    width: 100px; height: 100px;
+}
+
+#kissa1 { margin-left: 50px;}
+
+figure { margin-left: 50px;
+margin-top: 25px;}
