@@ -1,0 +1,129 @@
+body {color: azure;
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+h2 {border: double;
+    color: aliceblue;
+border-width: 5px;
+border-color: darkgoldenrod;
+margin: 40px 40px;
+padding: 25px 25px;}
+
+#para-one {background-color: rgb(102, 99, 99);
+    color: rgb(255, 255, 255);
+    border: solid;
+    border-width: 3px;
+    border-color: brown;
+border-radius: 10px;
+margin: 50px 50px;}
+
+.Statusbar {margin: 50px 50px;}
+
+.inside-div {
+    background-color: black;
+    border: dotted;
+    border-width: 2px;
+    width: 100px; height: 100px;
+}
+
+#kissa1 { margin-left: 50px;}
+
+figure { margin-left: 50px;
+margin-top: 25px;}
+
+
+
+ul {list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+   height: 100%;
+}
+
+li a {
+    display: block;
+    color: rgb(25, 112, 112);
+    padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+
+
+header { background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;}
+    
+nav {
+    float: left;
+    list-style-type: none;
+    background-color: rgb(212, 210, 210) ;
+    width: 10%;
+    color: rgb(17, 19, 20);
+    height: 70vh ;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #000000;
+}  
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: auto;
+    
+  }
+
+ .ylänavi {
+        overflow: hidden;
+        background-color: #333;
+        text-align: center;
+      }
+ 
+.ylänavi a { 
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        margin: auto;
+        font-size: 17px;
+    display: block;}
+
+.ylänavi ul {
+    list-style-type: none;
+    text-align: center;
+}
+ .ylänavi li {
+    display: inline-block;
+ } 
+ .ylänavi a:hover {
+    color: red;
+ }
