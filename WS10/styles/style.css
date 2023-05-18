@@ -47,20 +47,12 @@ body {
   color: rgb(64, 115, 255);
 }
 
-@font-face {
-  font-family: "dmsherif";
-  src: url("C:\Users\Niina\Documents\Koulu\Verkkosivujen kehittäminen\Verkkosivujen kehittäminen\WS10\Fontit\DM_Serif_Display\DMSerifDisplay-Regular.ttf")
-    format("truetype"); /* Tarkista tiedostopolku ja tiedostomuoto */
-}
 
-@font-face {
-    font-family: "aniyah";
-    src: url("C:\Users\Niina\Documents\Koulu\Verkkosivujen kehittäminen\Verkkosivujen kehittäminen\WS10\Fontit\aniyah\Aniyah.otf") format("opentype");
-  }
-  
+
+
 
 .header {
-  background-image: url(/WS10/headertausta/My\ Cats\ Header.png);
+  background-image: url(/WS10/headertausta/MyCatsHeader.png);
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
