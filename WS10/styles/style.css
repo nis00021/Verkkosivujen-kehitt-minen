@@ -28,7 +28,7 @@ body {
   float: left;
   color: rgb(255, 255, 255);
   text-align: center;
-  padding: 30px 16px;
+  padding: 0px 50px 0px 20px;
   text-shadow: 3px 3px 5px rgb(1, 69, 255);
   text-decoration: none;
   margin: auto;
@@ -48,13 +48,10 @@ body {
 }
 
 
-
-
-
 .header {
   background-repeat: no-repeat;
-  max-width: 100%;
-  height: 55vh /* Adjust the height as needed */
+  
+  /* Adjust the height as needed */
 }
 
 h1 {
