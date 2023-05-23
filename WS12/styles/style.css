@@ -54,13 +54,14 @@ h1 {
   padding-bottom: 40px;
 }
 
+/* Etusivun teksti */
 .sivutxt {
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
   font-size: 20px;
 }
-
+/*Karusellin muotoilut kaikkien kissojen sivuilla, osa muotoilusta suoraan html puolella*/
 .carousel-inner img {
   object-fit: cover;
   max-height: 500px;
